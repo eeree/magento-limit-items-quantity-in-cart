@@ -1,0 +1,95 @@
+<_>
+   <form_key>rT64vjQDXbaIYSt5</form_key>
+   <name>limit_items_quantity_in_cart</name>
+   <channel>community</channel>
+   <version_ids>
+      <version_ids>2</version_ids>
+   </version_ids>
+   <summary>Magento module, that allows administrators to limit product quantity in cart, limit number of different products added to cart or limit number of items added per product.</summary>
+   <description>Magento module, that allows administrators to limit product quantity in cart, limit number of different products added to cart or limit number of items added per product.</description>
+   <license>Massachusetts Institute of Technology License (MITL)</license>
+   <license_uri/>
+   <version>1.0.0</version>
+   <stability>stable</stability>
+   <notes>Initial release</notes>
+   <authors>
+      <name>
+         <name>Kamil Szymanski</name>
+      </name>
+      <user>
+         <user>eeree</user>
+      </user>
+      <email>
+         <email>kamilszymanski@gmail.com</email>
+      </email>
+   </authors>
+   <depends_php_min>5.3.0</depends_php_min>
+   <depends_php_max>7.0.0</depends_php_max>
+   <depends>
+      <package>
+         <name>
+            <name/>
+         </name>
+         <channel>
+            <channel/>
+         </channel>
+         <min>
+            <min/>
+         </min>
+         <max>
+            <max/>
+         </max>
+         <files>
+            <files>    </files>
+         </files>
+      </package>
+      <extension>
+         <name>
+            <name>Core</name>
+         </name>
+         <min>
+            <min/>
+         </min>
+         <max>
+            <max/>
+         </max>
+      </extension>
+   </depends>
+   <contents>
+      <target>
+         <target>magelocal</target>
+         <target>magecommunity</target>
+         <target>mageetc</target>
+         <target>magelocale</target>
+         <target>magelocale</target>
+      </target>
+      <path>
+         <path/>
+         <path>Eeree/OneProductAtATime</path>
+         <path>modules/Eeree_OneProductAtATime.xml</path>
+         <path>en_US/Eeree_OneProductAtATime.csv</path>
+         <path>pl_PL/Eeree_OneProductAtATime.csv</path>
+      </path>
+      <type>
+         <type>file</type>
+         <type>dir</type>
+         <type>file</type>
+         <type>file</type>
+         <type>file</type>
+      </type>
+      <include>
+         <include/>
+         <include/>
+         <include/>
+         <include/>
+         <include/>
+      </include>
+      <ignore>
+         <ignore/>
+         <ignore/>
+         <ignore/>
+         <ignore/>
+         <ignore/>
+      </ignore>
+   </contents>
+</_>

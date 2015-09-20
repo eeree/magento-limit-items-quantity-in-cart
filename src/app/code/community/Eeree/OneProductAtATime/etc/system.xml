@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<config>
+    <sections>
+        <checkout>
+            <groups>
+                <options>
+                    <fields>
+                        <max_per_product_cart_qty translate="label">
+                            <label>Maximum Quantity of Items per Product in Cart</label>
+                            <frontend_type>text</frontend_type>
+                            <sort_order>100</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <comment>0 to disable</comment>
+                        </max_per_product_cart_qty>
+                        <max_total_products_cart_qty translate="label">
+                            <label>Maximum Number of Unique Products Allowed in Cart</label>
+                            <frontend_type>text</frontend_type>
+                            <sort_order>100</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <comment>0 to disable</comment>
+                        </max_total_products_cart_qty>
+                        <max_total_cart_qty translate="label">
+                            <label>Maximum Quantity Allowed in Cart (total)</label>
+                            <frontend_type>text</frontend_type>
+                            <sort_order>100</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <comment>0 to disable</comment>
+                        </max_total_cart_qty>
+                    </fields>
+                </options>
+            </groups>
+        </checkout>
+    </sections>
+</config>
